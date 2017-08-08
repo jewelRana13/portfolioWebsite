@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+img {
+  border: 0px;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+address,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/*==============universal part end==========*/
+/*==============Extra part start==========*/
+.bg1 {
+  background: red;
+}
+.bg2 {
+  background: green;
+}
+.bg3 {
+  background: blue;
+}
+.pl0 {
+  padding-left: 0px;
+}
+.pr0 {
+  padding-right: 0px;
+}
+.plr0 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.container1 {
+  width: 960px;
+  max-width: 1000px;
+  margin: auto;
+  left: 1%;
+  right: 1%;
+  position: absolute;
+}
+.row {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+@font-face {
+  font-family: regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+/*less code*/
+/* ============== Extra part end ========== */
+/* ============== banner part start ========== */
+/* ============== banner part end ========== */
+.go {
+  padding: 850px 0px;
+}
+/* ============== body part start ========== */
+.navpart {
+  background: #2a2e33;
+}
+.navpart .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navpart .container ul li {
+  float: left;
+  line-height: 68px;
+  padding: 0px 15px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0);
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+.navpart .container ul li:hover {
+  background: black;
+  border-bottom: 5px solid #ff6633;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+.navpart .container ul liactive {
+  background: black;
+  border-bottom: 5px solid #ff6633;
+}
+.navpart .container ul li a {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: regular;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#body_part .container1 {
+  position: absolute;
+  top: 400px;
+  z-index: 999;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
+  background: #ffffff;
+  /*next work*/
+  border-top: 7px solid #ff6633;
+}
+/*end hearder part*/
+
+#body_part .container1 #about .about .hvr-shutter-in-horizontal::before {
+  background: #ff6633;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#body_part .container1 #about .about h3 {
+  color: #2a2e33;
+  font-size: 36px;
+  font-family: regular;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 20px 0px 10px;
+}
+#body_part .container1 #about .about p {
+  color: #2a2e33;
+  font-size: 14px;
+  font-family: regular;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: justify;
+}
+#body_part .container1 #about .about h4 {
+  margin-top: 33px;
+}
+#body_part .container1 #about .about h4 a {
+  padding: 16px 40px;
+  background: #2a2e33;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: regular;
+  font-weight: 600;
+  text-transform: uppercase;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#body_part .container1 #about .about img {
+  width: 320px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 30px;
+  border: 5px solid #ff6633;
+}
+#body_part .container1 .one {
+  margin-top: 30px;
+  border-top: 1px dotted #464343;
+  border-bottom: 1px dotted #464343;
+}
+#body_part .container1 .two {
+  border-top: 1px dotted #464343
+  /*border-bottom:1px dotted #464343;*/
+}
