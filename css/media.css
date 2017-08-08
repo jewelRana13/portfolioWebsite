@@ -1,0 +1,88 @@
+@media(min-width:992px){
+    
+    
+}
+@media(min-width:768px) and (max-width:991px){
+    .container1{
+        width:700px;
+        
+    }
+    #body_part .container1 #about .about p{
+        font-size: 10px;
+    }
+    #body_part .container1 #services .three p{
+        font-size: 10px;
+    }
+    #body_part .container1 #services .three h4{
+        font-size: 10px;
+    }
+    #body_part .container1 #services .three h2{
+        font-size: 15px;
+    }
+    button{
+        display: none;
+    }
+    #body_part .container1 #foot .five form .subject{
+    padding: 7px 16px 7px 17px;
+        margin-top: 15px;
+    }
+    #body_part .container1 #foot .five form .message{
+        height: 44px;
+        width: 218px;
+    }
+    #body_part .container1 #foot .five form .sub{
+        padding: 7px 16px 7px 17px;
+    }
+}
+@media(max-width:767px){
+    #body_part .container1{
+        top: 214px;
+        width: 280px;
+    }
+    .navbar-toggle{
+        background: rgb(255,102,51);
+        margin-right: 24px;
+    }
+    .navbar-toggle .icon-bar{
+        background: #fff;
+    }
+    #body_part .container1 #services .three h3 a{
+        margin-bottom: 27px;
+    }
+    #body_part .container1 #portfolio .four h3{
+        font-size: 30px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    #body_part .container1 .five h4{
+        font-size: 28px;
+        text-align: center;
+    }
+    #body_part .container1 .five h5{
+        font-size: 27px;
+        margin-top: 20px;
+    }
+    #body_part .container1 #foot .five form .subject{
+        padding: 7px 34px 7px 0px;
+        margin-top: 14px;
+    }
+    #body_part .container1 #foot .five form .sub{
+       padding: 7px 34px 7px 0px; 
+    }
+    #body_part .container1 #foot .five .last{
+        height: 197px;
+        width: 243px;
+    }
+    #body_part .container1 #foot .five .six p a{
+        margin: 6px 1px;
+    }
+    #body_part .container1 #foot .five .six h6{
+        line-height: 30px;
+        span{
+            text-align: center;
+        }
+    }
+    .navpart .container ul li{
+        line-height: 50px;
+    }
+}

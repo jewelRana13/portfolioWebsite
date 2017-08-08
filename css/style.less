@@ -1,0 +1,457 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+img{
+    border: 0px;
+}
+ol,ul{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,address,p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+body{
+    
+}
+/*==============universal part end==========*/
+
+/*==============Extra part start==========*/
+.bg1{
+    background: red;
+}
+.bg2{
+    background: green;
+}
+.bg3{
+    background: blue;
+}
+.pl0{
+    padding-left: 0px;
+}
+.pr0{
+    padding-right: 0px;
+}
+.plr0{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.container1{
+    width: 960px;
+    max-width: 1000px;
+    margin: auto;
+    left: 1%;
+    right: 1%;
+    position: absolute;
+}
+.row{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+@font-face {
+    font-family:regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family:bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+/*less code*/
+@one:rgb(255,102,51);
+@two:rgb(42,46,51);
+.font(@color:rgb(255,102,51);@size:14px;@family:regular;@weight:500;){
+    color: @color;
+    font-size: @size;
+    font-family:@family;
+    font-weight: @weight;
+    
+}
+.borderradius(@radius:5px;) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+       -o-border-radius: @radius;
+          border-radius: @radius;
+}
+.trans(@radius:5px;) {  
+  -webkit-transition:all linear .4s;
+     -moz-transition:all linear .4s;
+       -o-transition:all linear .4s;
+          transition:all linear .4s;
+}
+/* ============== Extra part end ========== */
+/* ============== banner part start ========== */
+    
+/* ============== banner part end ========== */
+.go{
+    padding: 850px 0px;
+}
+/* ============== body part start ========== */
+
+.navpart{
+    background:@two;
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+        ul{
+            li{
+                float: left;
+                line-height:68px;
+                padding:0px 15px;
+                
+                border-bottom:5px solid rgba(0, 0, 0,0);
+                .trans;
+                
+                &:hover{
+                     background: black;
+                   border-bottom:5px solid @one;
+                    .trans;
+                }
+                &active{
+                    background:black;
+                    border-bottom:5px solid @one;
+                }
+                
+                a{
+                    .font(#fff;14px;regular;500;);
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+#body_part{
+    
+   
+    .container1{
+        position: absolute;
+        top: 400px;
+        z-index: 999;
+        .borderradius;
+        box-shadow:0px 10px 20px rgba(0, 0, 0, 0.7);
+        background: rgb(255,255,255);
+        /*next work*/
+        border-top: 7px solid rgb(255,102,51);
+        #about{
+            .about{
+                .hvr-shutter-in-horizontal::before{
+                    background:@one;
+                    .borderradius;
+                }
+            h3{
+                .font(@two;36px;regular;800);
+                text-transform: uppercase;
+                margin: 20px 0px 10px;
+            }
+            p{
+               .font(@two;14px;regular;500);
+                text-transform: capitalize;
+                text-align: justify;
+                
+            }
+            h4{
+                margin-top: 33px;
+                
+                a{
+                    padding: 16px 40px;
+                    background: @two;
+                    .font(#fff;14px;regular;600);
+                    text-transform: uppercase;
+                    .borderradius;
+                }
+            }
+            img{
+                width: 320px;
+                .borderradius;
+                margin-top: 30px;
+                border: 5px solid @one;
+            }
+        }
+        }
+            .one{
+            margin-top: 30px;
+            border-top: 1px dotted #464343; 
+            border-bottom:1px dotted #464343;
+        }
+            .two{
+                border-top: 1px dotted #464343;
+                /*border-bottom:1px dotted #464343;*/
+        }
+        #services{
+            
+        .three{
+            .hvr-ripple-out:before{
+                 padding:15px 15px;
+                border: 4px solid @one;
+                display: block;
+                .borderradius;
+            }
+            margin: 30px 0px 50px;
+            h1{
+                .font(@two;36px;regular;500;);
+                margin-top: 5px;
+                margin-bottom: 20px;
+            }
+            p{
+               .font(@two;14px;regular;500);
+                text-align: justify;
+            }
+            h3{
+                margin-top: 25px;
+            a{
+                .font(#fff;14px;regular;500);
+                padding: 10px 15px;
+                background: @one;
+                .borderradius;
+            }
+            }
+            i{
+                height: 60px;
+                width: 60px;
+                background: @one;
+                color: #fff;
+                .borderradius(50%);
+                line-height: 60px;
+                text-align: center;
+                font-size: 27px;
+                float: left;
+                margin-right: 8px;
+                .trans;
+                &:hover{
+                    transform: scale(1.2);
+                    .trans;
+                }
+                
+            }
+            h2{
+                .font(@two;20px;regular;600);
+                text-transform: uppercase;
+                padding-top: 20px;
+            }
+            h4{
+                .font(@two;14px;regular;500);
+                margin-top: 30px;
+                text-align: justify;
+            }
+        }
+        }
+        #portfolio{
+            
+        .four{
+            position: relative;
+            margin: 10px 0px 40px;
+            h3{
+                .font(@two;36px;regular;500;);
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+            ul{
+                li{
+                    float: left;
+                    a{
+                        img{
+                            width: 205px;
+                            .borderradius;
+                            
+                        }
+                    }
+                }
+            }
+            .slick-prev{
+                background:@one;
+                height: 25px;
+                width: 40px;
+                border: none;
+                .borderradius;
+                position: absolute;
+                top: -33px;
+                right: 23px;
+            }
+            .slick-next{
+                background:@one;
+                height: 25px;
+                width: 40px;
+                border: none;
+                .borderradius;
+                position: absolute;
+                top: -33px;
+                right: 70px;
+            }
+        }
+        }
+        .five{
+            .demo { margin:10px auto;}
+            padding: 30px 0px 0px;
+            .slick-next{
+                background: none;
+                border: none;
+                color: rgba(255, 255, 255,0);
+                position: absolute;
+            }
+            .slick-prev{
+                background: none;
+                border: none;
+                color: rgba(255, 255, 255,0);
+                position: absolute;
+            }
+            h4{
+                .font(@two;36px;regular;500;);
+                text-transform: uppercase;
+                padding-bottom: 10px;
+            }
+            ul{
+                li{
+                    float: left;
+                    width:45%;
+                    margin: 3px 5px;
+                    p{
+                            .font(@two;10px;regular;500;);
+                        text-align:left;
+                    }
+                    img{
+                        height: 100px;
+                        margin: 5px 0px;
+                        .borderradius;
+                        margin-left: 30px;
+                    }
+                }
+            }
+            h5{
+                .font(@two;36px;regular;500;);
+                text-transform: uppercase;
+                padding-bottom: 10px;
+            }
+        }
+        #foot{
+            background:@two;
+            padding: 30p 0px 0px;
+           /* margin-left: -15px;
+            margin-right: -15px;*/
+            border-top: 5px solid @one;
+            margin-top: 30px;
+            .five{
+                form{
+                    .name{
+                        background:#fff;
+                        border:2px solid @one;
+                        .borderradius;
+                        .font(@two;14px;regular;600);
+                        text-transform: capitalize;
+                        padding: 7px 18px 7px 17px;
+                        margin-bottom: 10px;
+                        margin-right: 5px;
+                        .trans;
+                        &:hover{
+                           box-shadow:inset 0px 10px 80px rgb(255,102,51,);
+                            .trans;
+                        }
+                    }
+                    .email{
+                        background:#fff;
+                        border:2px solid @one;
+                        .borderradius;
+                        .font(@two;14px;regular;600);
+                        text-transform: capitalize;
+                       padding: 7px 16px 7px 17px;
+                        .trans;
+                        &:hover{
+                            box-shadow:inset 0px 10px 80px rgb(255,102,51,);
+                            .trans;
+                        }
+                    }
+                    .subject{
+                        background:#fff;
+                        border:2px solid @one;
+                        .borderradius;
+                        .font(@two;14px;regular;600);
+                        text-transform: capitalize;
+                       padding: 7px 85px 7px 175px;
+                        margin-bottom: 10px;
+                        .trans;
+                        &:hover{
+                           box-shadow:inset 0px 10px 80px rgb(255,102,51,);
+                            .trans;
+                        }
+                    }
+                    .message{
+                        background:#fff;
+                        border:2px solid @one;
+                        .borderradius;
+                        .font(@two;14px;regular;600);
+                        text-transform: capitalize;
+                        width: 100%;
+                        height: 100px;
+                        resize: none;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                        .trans;
+                        &:hover{
+                           box-shadow:inset 0px 10px 80px rgb(255,102,51,);
+                            .trans;
+                        }
+                    }
+                    
+                    .sub{
+                        background:#fff;
+                        border:2px solid @one;
+                        .borderradius;
+                        .font(@two;14px;regular;800);
+                        text-transform:uppercase;
+                       padding: 7px 205px 7px 175px;
+                        margin-bottom: 10px;
+                        .trans;
+                        &:hover{
+                           box-shadow:inset 5px 5px 70px rgb(255,102,51,);
+                            .trans;
+                        }
+                    }
+                }
+                .last{
+                    height: 238px;
+                    width: 446px;
+                    border: 5px solid @one;
+                    .borderradius;
+                }
+                .six{
+                    p{
+                        a{
+                            float: left;
+                            margin: 15px 10px;
+                            i{
+                                color: #fff;
+                                width: 40px;
+                                height: 40px;
+                                background: @one;
+                                line-height: 40px;
+                                text-align: center;
+                                font-size: 20px;
+                                .borderradius(50%);
+                                .trans;
+                                &:hover{
+                                    transform:scale(1.3);
+                                    .trans;
+                                }
+                            }
+                        }
+                    }
+                    h6{
+                        .font(#fff;14px;regular;500);
+                        line-height: 70px;
+                        span{
+                            color: @one;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* ============== body part end ========== */
+
+
+
+
