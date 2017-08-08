@@ -172,3 +172,80 @@ p {
   border-top: 1px dotted #464343
   /*border-bottom:1px dotted #464343;*/
 }
+
+#body_part .container1 #services .three {
+  margin: 30px 0px 50px;
+}
+#body_part .container1 #services .three .hvr-ripple-out:before {
+  padding: 15px 15px;
+  border: 4px solid #ff6633;
+  display: block;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#body_part .container1 #services .three h1 {
+  color: #2a2e33;
+  font-size: 36px;
+  font-family: regular;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+#body_part .container1 #services .three p {
+  color: #2a2e33;
+  font-size: 14px;
+  font-family: regular;
+  font-weight: 500;
+  text-align: justify;
+}
+#body_part .container1 #services .three h3 {
+  margin-top: 25px;
+}
+#body_part .container1 #services .three h3 a {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: regular;
+  font-weight: 500;
+  padding: 10px 15px;
+  background: #ff6633;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#body_part .container1 #services .three i {
+  height: 60px;
+  width: 60px;
+  background: #ff6633;
+  color: #fff;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  font-size: 27px;
+  float: left;
+  margin-right: 8px;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+#body_part .container1 #services .three i:hover {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+#body_part .container1 #services .three h2 {
+  color: #2a2e33;
+  font-size: 20px;
+  font-family: regular;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+#body_part .container1 #services .three h4 {
+  color: #2a2e33;
+  font-size: 14px;
+  font-family: regular;
+  font-weight: 500;
+  margin-top: 30px;
+  text-align: justify;
+}
