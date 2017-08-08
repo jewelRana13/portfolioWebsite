@@ -249,3 +249,25 @@ p {
   margin-top: 30px;
   text-align: justify;
 }
+
+
+#body_part .container1 #portfolio .four {
+  position: relative;
+  margin: 10px 0px 40px;
+}
+#body_part .container1 #portfolio .four h3 {
+  color: #2a2e33;
+  font-size: 36px;
+  font-family: regular;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#body_part .container1 #portfolio .four ul li {
+  float: left;
+}
+#body_part .container1 #portfolio .four ul li a img {
+  width: 205px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
